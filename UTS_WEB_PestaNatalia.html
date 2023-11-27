@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<head><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpotr" content="=width=device-width, initial-scale=1.0">
+    <title>Login form | Pesta Natalia | SELAMAT DATANG DI TOKO KAMI</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <style type="text/css">
+        div{
+            background: burlywood;
+            text-align: center;
+            border: 2px whitesmoke;
+            padding: 15px;
+            color: white;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="dashboard.html">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" placeholder="username" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="password" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <button type="submit" class="btn">Login</button>
+
+            <div class="register-link">
+                <p>Don't have an account? <a href="register.html">Register</a> </p>
+            </div>
+            <footer>
+                <div class="=container">
+                    <p>Copyright &copy; 2023 By Pesta Natalia Gultom.</p>
+                </div>
+            </footer>
+        </form>
+    </div>
+
+    <script>
+        // script.js
+        function checkLoginStatus(){
+            var isLoggedIn= /* Logika pengecekan login, contoh: */ true; 
+            
+            if(isLoggedIn) {
+                window.location.href = "dashboard.html";
+            } else {
+                console.log("anda belum login.");
+            }
+        }
+    </script>
+</body>
+<body>
+    <header>
+        <div class="countainer">
+            <h1> Toko Sepatu NatNat</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact>">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+<div class="countainer">
+    <!--Baris ke 1 adalah header, full layar-->
+    <div class="row" style="background: 	#DEB887" ; color: #000000>
+        <div class="col-md-12">
+            <div class="row" style="background: #A52A2A; color: white;">
+            <h1> TOKO SEPATU NATNAT.SHOES <h1>
+            <p>Selamat Datang Ditoko NATNAT.SHOES</p>
+        </div>
+    </div>
+    <!-- end baris 1-->
+    <div class="row">
+        <div class="col-md-5">
+        <img src="https://ecs7.tokopedia.net/img/cache/700/product-1/2018/7/10/1825612/1825612_ef3eec59-2a94-445f-a6b6-6b0efd95b5a0_750_750.jpg">
+        <h2>Sepatu Canggih dan Kekinian</h2>
+        <p> Sebuah kaki dengan kenyamanan yang baik</p>
+        <p>Semua Barang 100% ORI Dan Sepatu lokal kualitas internasional</p>
+        <p> sepatu kekinian untuk segala generasi usia </p>
+    </div>
+</div>
+<!--and baris ke 2-->
+
+<!--Baris ke 3 adalah konten 2,3 dan 4. setiap konten lebarnya adalah-->
+<div class="row">
+    <!-- konten 2 -->
+    <div class="col-md-4">
+        <h2> Tentang Kami </h2>
+        <p>NatNat.SHOES adalah Usaha Toko Sepatu yang Independen Dan Salah Satu Sepatu Brand Lokal Di Indonesia</p>
+        <p> Kami berspesialisasi dalam koneksi terbatas dikarenakan bahan pembuatan sepatu.Kami juga Berkolaborasi Dengan beberapa brand yang ada di Indonesia.Silahkan Hubungi kami jika Anda ingin tahu lebih banyak tentang proses dan harga kami. <p>
+    </div>
+
+    <!-- konten 3 -->
+    <div class="col-md-4">
+        <h2>Seseorang Pernah Berkata:</h2>
+        <p>“Saya sangat yakin bahwa dengan alas kaki yang tepat, seseorang dapat menguasahi Dunia”
+
+             Bette Midler</p>
+    </div>
+
+    <!-- konten 4 -->
+    <div class="col-md-4">
+        <img src=""
+        <h2></h2>
+        <p>Hari-hari tidak dapat dimulai tanpa sepatu yang sempurna.</p>
+    </div>
+
+</div>
+<!--end baris 3-->
+
+<!--baris ke 4 adalah footer-->
+    <div class="col-md-12">
+        <div class="row" style="background: #A52A2A; color: white;">
+        <P>NATNAT.SHOES
+
+                     ->Sepatu sama uniknya dengan manusia yang memakainya.
+        </P>
+    </div>
+</div>
+<!--end baris 4-->
+
+</div>
+
+
+</html> 
+<head>
+    <title>Latihan Gride bootstrap</title>
+    <link rel="stylesheet" href="=bootstrap-4.3.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- buat class container -->
+    <div class="countainer">
+    <h5>Daftar/Login Akun</h5>
+
+    <!-- membuat form -->
+    <form style="margin: left 5%;">
+        <!-- buat row form (baris ke 1 pada form)-->
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="contoh">Nama : </label>
+            <input type="text" class="form-control" id="contoh" placeholder="Nama">
+        <div class="form group col-md-6">
+            <label for="contoh2">Username : </label>
+            <input type="text" class="form-control" id="contoh2" placeholder="username">
+        </div>
+    </div>
+
+    <!-- end baris 1 pada form -->
+    <button type="submit" class="btn btn-primary">Login </button>
+
+    <!--baris ke 2 pada form-->
+    <div class="countainer">
+        <h5>Halaman Register</h5> 
+        <div class="form-group col-md-4">
+            <label for="contoh1">Nama : </label>
+            <input type="text" class="form-control" id="contoh1" placeholder="Nama : ">
+        </div>
+    </div>
+    <div class="form-group col-md-4">
+        <label for="contoh2">Password : </label>
+        <input type="text" class="form-control" id="contoh2" placeholder="Password : ">
+    </div>
+</div>
+<div class="form-group col-md-4">
+    <label for="contoh2">Konfirmasi Password : </label>
+    <input type="text" class="form-control" id="contoh2" placeholder="Konfirmasi Password : ">
+</div>
+
+<!--end baris 2 pada form-->
+
+<button type="submit" class="btn btn-primary">Register </button>
+</form style="margin-left:5%">
+<!--end form-->
+</body>
+</html>
